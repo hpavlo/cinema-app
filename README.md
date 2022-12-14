@@ -48,7 +48,7 @@ A user without an `ADMIN` role cannot perform operations, defined exclusively fo
 |:-----------------------|:--------|
 | JDK                    | 11      |
 | Maven                  | 4.0.0   |
-| TomCat                 | 9.0.50  |
+| Tomcat                 | 9.0.50  |
 | MySQL                  | 8.0.22  |
 | Spring (WEB, Security) | 5.2.2   |
 | Hibernate              | 5.4.27  |
