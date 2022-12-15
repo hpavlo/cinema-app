@@ -24,8 +24,8 @@ Admin can add or remove movies, sessions and so on.
 
 Information is sent and received in `JSON` format.
 The program is written in compliance with SOLID principles, 
-interfaces are used to comply the Dependency inversion principle, 
-and mappers are used for the Single-responsibility principle.
+interfaces as example for comply the Dependency inversion principle, 
+and mappers for the Single-responsibility principle.
 
 ## 🚀 Features
 |  Role   | Possibility                                                                                      | Endpoints                                                                                                                                                                                                                                   |
