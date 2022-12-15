@@ -8,7 +8,7 @@
   <a href="#-architecture">Architecture</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-how-to-start-the-program">How to start the program</a> •
-  <a href="#-uml-diagram">UML diagram</a>
+  <a href="#-uml-models-diagram">UML diagram</a>
 </p>
 
 ## 📃 Description
@@ -23,6 +23,9 @@ The user has the opportunity to view sessions, movies, manage their orders.
 Admin can add or remove movies, sessions and so on.
 
 Information is sent and received in `JSON` format.
+The program is written in compliance with SOLID principles, 
+interfaces are used to comply the Dependency inversion principle, 
+and mappers are used for the Single-responsibility principle.
 
 ## 🚀 Features
 |  Role   | Possibility                                                                                      | Endpoints                                                                                                                                                                                                                                   |
@@ -57,7 +60,8 @@ A user without an `ADMIN` role cannot perform operations, defined exclusively fo
 1. Clone the project from GitHub
 3. Configure [`/resources/db.properties`](https://github.com/pavlogook/cinema-app/blob/main/src/main/resources/db.properties#L2) with your own URL, username, password and JDBC driver
 4. Configure Tomcat server (it is recommended to use [version 9.0.50](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/))
-5. Run and enjoy the program 😉
+5. First user with the role of `ADMIN` will be created automatically with the following parameters: email - `admin@i.ua`, password - `admin123`
+6. Run and enjoy the program 😉
 
-## ✨ UML diagram
+## ✨ UML models diagram
 ![UML diagram](img/uml.png)
